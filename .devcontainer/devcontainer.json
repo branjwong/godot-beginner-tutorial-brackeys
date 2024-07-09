@@ -14,7 +14,8 @@
                 "GitHub.copilot-chat",
                 "GitHub.copilot",
                 "mhutchie.git-graph",
-                "gimenete.github-linker"
+                "gimenete.github-linker",
+                "ms-dotnettools.csharp"
             ],
             "settings": {
                 "solidity.telemetry": true

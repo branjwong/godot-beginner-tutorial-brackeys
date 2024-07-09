@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/godotengine/godot.git
 WORKDIR "godot"
-RUN scons platform=linuxbsd target=editor module_mono_enabled=yes
-RUN ln /godot/bin/godot.linuxbsd.editor.x86_64 /bin/godot -s
+RUN scons platform=linuxbsd target=template_debug module_mono_enabled=yes
+RUN ln /godot/bin/godot.linuxbsd.template_debug.x86_64.mono /bin/godot -s
 
 ENV SHELL /bin/bash
